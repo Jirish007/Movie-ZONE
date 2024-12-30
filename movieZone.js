@@ -131,7 +131,7 @@ var trendingDisplayDom = finalResults["movies"].map((x)=>{
 const {id,image,name,links,ratings,description} = x
 return `
 <section id="movie-zone-id-${id}">
-<img src=${image}>
+<img src=${image} loading="lazy">
 <h2 id="ratings">${ratings}</h2>
 <h4 id="name">${name}</h4>
 <p id="description">${description}</p>
@@ -153,7 +153,7 @@ movies.innerHTML = test.map((x)=>{
 const {id,image,name,links,ratings,description} = x
 return `
 <section id="movie-zone-id-${id}">
-<img src=${image}>
+<img src=${image} loading="lazy">
 <h2 id="ratings">${ratings}</h2>
 <h4 id="name">${name}</h4>
 <p id="description">${description}</p>
