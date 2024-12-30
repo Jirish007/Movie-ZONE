@@ -32,7 +32,7 @@ return data;
 const Display = async()=>{
 var finalResults = await getData();
 
-var trendingDisplayDom = finalResults["trending"].map((x)=>{
+var trendingDisplayDom = finalResults["movies"].map((x)=>{
 const {id,image,name,links,ratings,description} = x
 return `
 <section id="movie-zone-id-${id}">
@@ -47,7 +47,7 @@ return `
 form.addEventListener('submit', (e) =>{
 e.preventDefault();
 const searchBarSearches = form.querySelector("input").value.toLowerCase();
-var test = finalResults["trending"].filter((product) => {
+var test = finalResults["movies"].filter((product) => {
 return(
 product.name.toLocaleLowerCase().includes(searchBarSearches)
 )
@@ -123,52 +123,7 @@ Display();
 
  }
 //THIS IS FOR THE MOVIES WHEN YOU CLICK THE MOVIES LINK
- function moviesLoad(){
-const Display = async()=>{
-var finalResults = await getData();
 
-var trendingDisplayDom = finalResults["movies"].map((x)=>{
-const {id,image,name,links,ratings,description} = x
-return `
-<section id="movie-zone-id-${id}">
-<img src=${image} loading="lazy">
-<h2 id="ratings">${ratings}</h2>
-<h4 id="name">${name}</h4>
-<p id="description">${description}</p>
-<button><a href=${links}> >Download</a></button>
-</section>
-`
-}).join("");
-form.addEventListener('submit', (e) =>{
-e.preventDefault();
-const searchBarSearches = form.querySelector("input").value.toLowerCase();
-var test = finalResults["movies"].filter((product) => {
-return(
-product.name.toLocaleLowerCase().includes(searchBarSearches)
-)
-})
-
-
-movies.innerHTML = test.map((x)=>{
-const {id,image,name,links,ratings,description} = x
-return `
-<section id="movie-zone-id-${id}">
-<img src=${image} loading="lazy">
-<h2 id="ratings">${ratings}</h2>
-<h4 id="name">${name}</h4>
-<p id="description">${description}</p>
-<button><a href=${links}> >Download</a></button>
-</section>
-`
-}).join("")
-if(movies.innerHTML == ""){
-movies.innerHTML=`<h1>Entry not found</h1> <a href="/components/movies.html" id="screen-error"><h2>Click here to return</h2></a>`
-}
-})
-movies.innerHTML = trendingDisplayDom
-}
-Display();
- }
 //this handles the slider links
 function Blackish(){
 window.location.href ="https://www.youtube.com/results?search_query=blackish";
