@@ -1,0 +1,37 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="Watch your favourite movies and shows for FREE!"/>
+<meta name="keywords" content="movie app, movies, series, TV shows, free streaming,streaming"/>
+<link rel="stylesheet" href="/movieZone.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=dark_mode" />
+<title>
+TV/Series
+</title>
+</head>
+<body onload="othersLoad()">
+<div class="container">
+<ul>
+<li><a href="/index.html">Trending</a></li>
+<li><a href="/components/movies.html" target="_self">Movies</a></li>
+<li><a href="/components/others.html" target="_self">TV/Series</a></li>
+</ul>
+<div class="topContainer">
+<div class="searchBar">
+<form action="">
+<input type="search" class="gradient-icon" id="search" placeholder="search your favourites...">
+<button class="">search</button>
+</form>
+</div>
+<span class="material-symbols-outlined" onclick="BackgroundColour()" id="darkMode">
+dark_mode
+</span>
+</div>
+</div>
+<div class="series">
+
+</div>
+<script src="/components/data.json"></script>
+<script src="/movieZone.js"></script>
+</body>
+</html>
