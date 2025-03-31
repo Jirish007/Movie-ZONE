@@ -13,11 +13,12 @@
 </head>
 <body>
 <h1>movie ZONE</h1>
+
 <div class="container">
 <ul>
 <li><a href="index.html">Movies</a></li>
 
-<li><a href="/components/others.html" target="_self">TV/Series</a></li>
+<li><a href="/components/others.html" target="_self" id="button">TV/Series</a></li>
 </ul>
 <div class="topContainer">
 <div class="searchBar">
@@ -31,21 +32,22 @@ dark_mode
 </span>
 </div>
 </div>
+
 <!--this is the section for implementing the swiper js-->
 <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="false" space-between="30"
 centered-slides="true" autoplay-delay="2000" autoplay-disable-on-interaction="false">
 <swiper-slide>
-<img src="/images/blackish.jpg">
+<img src="/images/blackish.webp">
 <h2>6.5</h2>
 <button onclick="Blackish()">> Download</button>
 </swiper-slide>
 <swiper-slide>
-<img src="/images/alita.jpg"> 
+<img src="/images/alita.webp"> 
 <h2>7.3</h2>
 <button onclick="Alita()">> Download</button>
 </swiper-slide>
 <swiper-slide>
-<img src="/images/home-alone.jpg">
+<img src="/images/home-alone.webp">
 <h2>9.0</h2>
 <button onclick="Home()">> Download</button>
 </swiper-slide>
@@ -54,6 +56,6 @@ centered-slides="true" autoplay-delay="2000" autoplay-disable-on-interaction="fa
 <div class="trendingDisplay">
 </div>
 <script src="/components/data.json"></script>
-<script src="movieZone.js"></script>
+<script type="module" src="movieZone.js"></script>
 </body>
 </html>

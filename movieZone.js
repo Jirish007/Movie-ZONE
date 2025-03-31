@@ -7,6 +7,7 @@ var trendingDisplay = document.querySelector(".trendingDisplay");
 var movies = document.querySelector(".movies");
 var series = document.querySelector(".series");
 var darkMode = document.querySelector("#darkMode");
+//import {Series} from './components/series'
 //THIS CONTROLS DARK ANDLIGHT MODE
 function BackgroundColour(){
 if(!backgroundParameter){
@@ -73,55 +74,54 @@ trendingDisplay.innerHTML=`<h1>Entry not found</h1> <a href="/index.html" id="sc
 trendingDisplay.innerHTML = trendingDisplayDom
 }
 Display();
+
 //THIS IS FOR THE SERIES ON THE TV/SERIES LINK
- function othersLoad(){
+function othersLoad(){
 const Display = async()=>{
-var finalResults = await getData();
-
-var trendingDisplayDom = finalResults["series"].map((x)=>{
-const {id,image,name,links,ratings,description} = x
-return `
-<section id="movie-zone-id-${id}">
-<img src=${image}>
-<h2 id="ratings">${ratings}</h2>
-<h4 id="name">${name}</h4>
-<p id="description">${description}</p>
-<button><a href=${links}> >Download</a></button>
-</section>
-`
-}).join("");
-form.addEventListener('submit', (e) =>{
-e.preventDefault();
-const searchBarSearches = form.querySelector("input").value.toLowerCase();
-var test = finalResults["series"].filter((product) => {
-return(
-product.name.toLocaleLowerCase().includes(searchBarSearches)
-)
-})
-
-
-series.innerHTML = test.map((x)=>{
-const {id,image,name,links,ratings,description} = x
-return `
-<section id="movie-zone-id-${id}">
-<img src=${image}>
-<h2 id="ratings">${ratings}</h2>
-<h4 id="name">${name}</h4>
-<p id="description">${description}</p>
-<button><a href=${links}> >Download</a></button>
-</section>
-`
-}).join("")
-if(series.innerHTML == ""){
-series.innerHTML=`<h1>Entry not found</h1> <a href="/components/others.html" id="screen-error"><h2>Click here to return</h2></a>`
+    var finalResults = await getData();
+    
+    var trendingDisplayDom = finalResults["series"].map((x)=>{
+    const {id,image,name,links,ratings,description} = x
+    return `
+    <section id="movie-zone-id-${id}">
+    <img src=${image}>
+    <h2 id="ratings">${ratings}</h2>
+    <h4 id="name">${name}</h4>
+    <p id="description">${description}</p>
+    <button><a href=${links}> >Download</a></button>
+    </section>
+    `
+    }).join("");
+    form.addEventListener('submit', (e) =>{
+    e.preventDefault();
+    const searchBarSearches = form.querySelector("input").value.toLowerCase();
+    var test = finalResults["series"].filter((product) => {
+    return(
+    product.name.toLocaleLowerCase().includes(searchBarSearches)
+    )
+    })
+    
+    
+    series.innerHTML = test.map((x)=>{
+    const {id,image,name,links,ratings,description} = x
+    return `
+    <section id="movie-zone-id-${id}">
+    <img src=${image}>
+    <h2 id="ratings">${ratings}</h2>
+    <h4 id="name">${name}</h4>
+    <p id="description">${description}</p>
+    <button><a href=${links}> >Download</a></button>
+    </section>
+    `
+    }).join("")
+    if(series.innerHTML == ""){
+    series.innerHTML=`<h1>Entry not found</h1> <a href="/components/others.html" id="screen-error"><h2>Click here to return</h2></a>`
+    }
+    })
+    series.innerHTML = trendingDisplayDom
+    }
+    Display();
 }
-})
-series.innerHTML = trendingDisplayDom
-}
-Display();
-
-
- }
 //THIS IS FOR THE MOVIES WHEN YOU CLICK THE MOVIES LINK
 
 //this handles the slider links

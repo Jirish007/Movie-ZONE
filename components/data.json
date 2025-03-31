@@ -3,7 +3,7 @@
 "series":[
 {
 "id": "squid",
-"image": "/images/squid.jpg",
+"image": "/images/squid.webp",
 "name": "Squid game",
 "links": "https://www.youtube.com/results?search_query=squid+game",
 "ratings":"8.8",
@@ -11,7 +11,7 @@
 },
 {
 "id": "backstreet",
-"image": "/images/backstreet-rookie.jpg",
+"image": "/images/backstreet-rookie.webp",
 "name": "Backstreet rookie",
 "links": "https://www.youtube.com/results?search_query=backstreet+rookie",
 "ratings":"8.7",
@@ -20,7 +20,7 @@
 
 {
  "id": "bleach",
-"image": "/images/tybw.jpg",
+"image": "/images/tybw.webp",
 "name": "Bleach Thousand years blood war",
 "links": "https://www.youtube.com/results?search_query=bleach+tybw",
 "ratings":"9.6",
@@ -29,7 +29,7 @@
  
 {
 "id": "family-feud",
-"image": "/images/family-feud.jpg",
+"image": "/images/family-feud.webp",
 "name": "Family feud",
 "links": "https://www.youtube.com/results?search_query=family+feud+usa",
 "ratings":"7.7",
@@ -37,7 +37,7 @@
 },
 {
 "id": "blackish",
-"image": "/images/blackish.jpg",
+"image": "/images/blackish.webp",
 "name": "Blackish",
 "links": "https://www.youtube.com/results?search_query=blackish",
 "ratings":"6.5",
@@ -45,7 +45,7 @@
 },
 {
 "id": "blue-lock",
-"image": "/images/blue-lock.jpg",
+"image": "/images/blue-lock.webp",
 "name": "Blue lock",
 "links": "https://www.youtube.com/results?search_query=blue+lock",
 "ratings":"8.0",
@@ -53,7 +53,7 @@
 },
 {
 "id": "come-dine-with-me",
-"image": "/images/come-dine-with-me.jpg",
+"image": "/images/come-dine-with-me.webp",
 "name": "Come dine with me",
 "links": "https://www.youtube.com/results?search_query=come+dine+with+me",
 "ratings":"5.4",
@@ -61,7 +61,7 @@
 },
 {
 "id": "everybody-hates-chris",
-"image": "/images/everybody-hates-chris.jpg",
+"image": "/images/everybody-hates-chris.webp",
 "name": "Everybody hates Chris",
 "links": "https://www.youtube.com/results?search_query=everybody+hates+chris",
 "ratings":"8.7",
@@ -69,7 +69,7 @@
 },
 {
 "id": "tale-of-the-nine-tailed",
-"image": "/images/tale-of-the-nine-tailed.jpg",
+"image": "/images/tale-of-the-nine-tailed.webp",
 "name": "Tale of the nine tailed",
 "links": "https://www.youtube.com/results?search_query=tal+of+the+nine+tailed+kdrama",
 "ratings":"8.8",
@@ -77,7 +77,7 @@
 },
 {
 "id": "empire",
-"image": "/images/empire.jpg",
+"image": "/images/empire.webp",
 "name": "Empire",
 "links": "https://www.youtube.com/results?search_query=empire+series",
 "ratings": "4.5",
@@ -85,7 +85,7 @@
 },
 {
 "id": "young-sheldon",
-"image": "/images/young-sheldon.jpg",
+"image": "/images/young-sheldon.webp",
 "name": "Young Sheldon",
 "links": "https://www.youtube.com/results?search_query=young+sheldon",
 "ratings":"4.5",
@@ -93,7 +93,7 @@
 },
 {
 "id": "90-days",
-"image": "/images/90-days.jpg",
+"image": "/images/90-days.webp",
 "name": "90 days",
 "links": "https://www.youtube.com/results?search_query=90+days+fiance",
 "ratings":"7.6",
@@ -101,7 +101,7 @@
 },
 {
 "id": "american-idol",
-"image": "/images/american-idol.jpg",
+"image": "/images/american-idol.webp",
 "name": "American idols",
 "links": "https://www.youtube.com/results?search_query=american+idols",
 "ratings":"8.2",
@@ -109,7 +109,7 @@
 },
 {
 "id": "beat-shazam",
-"image": "/images/beat-shazam.jpg",
+"image": "/images/beat-shazam.webp",
 "name": "Beat shazam",
 "links": "https://www.youtube.com/results?search_query=beat+shazam",
 "ratings":"6.7",
@@ -117,7 +117,7 @@
 },
 {
 "id": "invent-it-rich",
-"image": "/images/invent-it-rich.jpg",
+"image": "/images/invent-it-rich.webp",
 "name": "Invent it rich",
 "links": "https://www.youtube.com/results?search_query=invent+it+rich",
 "ratings":"6.0",
@@ -125,7 +125,7 @@
 },
 {
 "id": "king-of-hearts",
-"image": "/images/king-of-hearts.jpg",
+"image": "/images/king-of-hearts.webp",
 "name": "King of hearts",
 "links": "https://www.youtube.com/results?search_query=king+of+hearts+indian+series",
 "ratings": "7.6",
@@ -133,7 +133,7 @@
 },
 {
 "id": "south-park",
-"image": "/images/south-park.jpg",
+"image": "/images/south-park.webp",
 "name": "South park",
 "links": "https://www.youtube.com/results?search_query=south+park",
 "ratings":"8.8",
@@ -143,7 +143,7 @@
 "movies":[
 {
 "id": "deadpool",
-"image": "/images/dp.jpg",
+"image": "/images/dp.webp",
 "name": "Deadpool and wolverine",
 "links": "https://www.youtube.com/results?search_query=deadpool+and+wolverine",
 "ratings":"8.0",
@@ -151,7 +151,7 @@
 },
 {
 "id": "ghostbusters",
-"image": "/images/frozen-empire.jpg",
+"image": "/images/frozen-empire.webp",
 "name": "Frozen empire",
 "links": "https://www.youtube.com/results?search_query=ghostbusters+frozen+empire",
 "ratings":"7.6",
@@ -159,7 +159,7 @@
 },
 {
 "id": "last-christmas",
-"image": "/images/last-christmas.jpg",
+"image": "/images/last-christmas.webp",
 "name": "Last christmas",
 "links": "https://www.youtube.com/results?search_query=last+christmas+movie",
 "ratings":"7.5",
@@ -167,7 +167,7 @@
 },
 {
 "id": "venom",
-"image": "/images/venom-the-last-dance.jpg",
+"image": "/images/venom-the-last-dance.webp",
 "name": "Venom: The last dance",
 "links": "https://www.youtube.com/results?search_query=venom+the+last+dance",
 "ratings":"6.5",
@@ -175,7 +175,7 @@
 },
 {
 "id": "toy-story",
-"image": "/images/toy-story.jpg",
+"image": "/images/toy-story.webp",
 "name": "Toy story",
 "links": "https://www.youtube.com/results?search_query=toy+story+1",
 "ratings":"9.5",
@@ -183,7 +183,7 @@
 },
 {
 "id": "bruce-almighty",
-"image": "/images/bruce-almighty.jpg",
+"image": "/images/bruce-almighty.webp",
 "name": "Bruce almighty",
 "links": "https://www.youtube.com/results?search_query=bruce+almighty",
 "ratings":"8.5",
@@ -191,7 +191,7 @@
 },
 {
 "id": "coco",
-"image": "/images/coco.jpg",
+"image": "/images/coco.webp",
 "name": "Coco",
 "links": "https://www.youtube.com/results?search_query=disney+coco",
 "ratings":"9.4",
@@ -199,7 +199,7 @@
 },
 {
 "id": "murder-mystery",
-"image": "/images/murder-mystery.jpg",
+"image": "/images/murder-mystery.webp",
 "name": "Murder mystery",
 "links": "https://www.youtube.com/results?search_query=murder+mystery+movie",
 "ratings":"7.2",
@@ -207,7 +207,7 @@
 },
 {
 "id": "mean-girls",
-"image": "/images/mean-girls.jpg",
+"image": "/images/mean-girls.webp",
 "name": "Mean girls",
 "links": "https://www.youtube.com/results?search_query=mean+girls",
 "ratings":"7.8",
@@ -215,7 +215,7 @@
 },
 {
 "id": "shotgun-wedding",
-"image": "/images/shotgun-wedding.jpg",
+"image": "/images/shotgun-wedding.webp",
 "name": "Shotgun wedding",
 "links": "https://www.youtube.com/results?search_query=shotgun+wedding",
 "ratings":"7.0",
@@ -223,7 +223,7 @@
 },
 {
 "id": "are-we-there-yet",
-"image": "/images/are-we-there-yet.jpg",
+"image": "/images/are-we-there-yet.webp",
 "name": "Are we there yet",
 "links": "https://www.youtube.com/results?search_query=are+we+there+yet",
 "ratings":"8.5",
@@ -231,7 +231,7 @@
 },
 {
 "id": "home-alone",
-"image": "/images/home-alone.jpg",
+"image": "/images/home-alone.webp",
 "name": "Home alone",
 "links": "https://www.youtube.com/results?search_query=home+alone",
 "ratings": "9.0",
@@ -239,7 +239,7 @@
 },
 {
 "id": "yes-man",
-"image": "/images/yes-man.jpg",
+"image": "/images/yes-man.webp",
 "name": "Yes man",
 "links": "https://www.youtube.com/results?search_query=yes+man+jim",
 "ratings":"7.4",
@@ -247,7 +247,7 @@
 },
 {
 "id": "blue-beetle",
-"image": "/images/blue-beetle.jpg",
+"image": "/images/blue-beetle.webp",
 "name": "Blue beetle",
 "links": "https://www.youtube.com/results?search_query=blue+beetle+movie",
 "ratings":"8.0",
@@ -255,7 +255,7 @@
 },
 {
 "id": "alita",
-"image": "/images/alita.jpg",
+"image": "/images/alita.webp",
 "name": "Alita battle angel",
 "links": "https://www.youtube.com/results?search_query=alita+battle+angel",
 "ratings":"7.3",
@@ -263,7 +263,7 @@
 },
 {
 "id": "hidden-strike",
-"image": "/images/hidden-strike.jpg",
+"image": "/images/hidden-strike.webp",
 "name": "Hidden strike",
 "links": "https://www.youtube.com/results?search_query=hidden+strike",
 "ratings":"5.5",
